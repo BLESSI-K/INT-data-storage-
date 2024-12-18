@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catolog>
+<book id="bk101">
+<author>john Doe</author>
+<tittle>understanding xml</tittle>
+<genre>Education</genre>
+<price>39.95</price>
+<publish-date>2024-01-01</publish-date>
+</book>
+
+<book id="bk102">
+<author>joe Doe</author>
+<tittle>xml beginners</tittle>
+<genre>Education</genre>
+<price>29.95</price>
+<publish-date>2024-02-01</publish-date>
+</book>
