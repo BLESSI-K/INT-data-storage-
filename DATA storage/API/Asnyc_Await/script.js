@@ -4,7 +4,7 @@ async function FetchPsts() {
     const data = await response.json();
     console.log(data);
     const postDiv = document.getElementById('posts');
-    data.foreach(post=>{
+    data.forEach(post=>{
     const postElement = document.createElement('div');
     postElement.classList.add('post');
     postElement.innerHTML = `
@@ -16,6 +16,8 @@ async function FetchPsts() {
    } catch(error) {
     console.error('Error:',error);
     document.getElementById('posts').innerHTML = '<h3 style= "color:red;">Sorry, something went wrong!</h3>';
+    
+    
    }
 }
  FetchPsts();
