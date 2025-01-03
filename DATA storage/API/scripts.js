@@ -21,5 +21,5 @@ const postDiv = document.getElementById('posts');
 .catch(error =>{
     //console.log(error);
     console.error('Error,error');
-    document.getElementById('posts').innerHTML = '<h3 style="color:red;"> Sorry, Something went Wrong!</h3>'
+    document.getElementById('posts').innerHTML = '<h3 style="color:red;"> Sorry, Something went Wrong!</h3>';
 })

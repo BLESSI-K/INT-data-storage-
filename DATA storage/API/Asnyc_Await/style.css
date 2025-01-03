@@ -45,3 +45,25 @@ h2{
     cursor: pointer;
     box-shadow: 0 8px 16px  rgba(0,0,0,0.1);
  }
+
+ #pagination-controls button{ 
+   padding: 10px 20px;
+   background-color: #00008B;
+   color:  #fff;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+ }
+ #pagination-controls button:hover :not(:disabled)  {
+   background-color: #00008B;
+ }
+
+ #pagination-controls button:disabled{
+   background-color: #ccc;
+   cursor: not-allowed;
+ }
+
+ #pagination-controls span{
+   color: #555;
+ }
