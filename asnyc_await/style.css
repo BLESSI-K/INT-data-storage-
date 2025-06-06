@@ -4,10 +4,11 @@ body{
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
+    background-image:url(./art\ pic.webp);
 }
 
 .quote-box {
- 
+    background-color: white;
     max-width:600px ;
     padding:20px;
     text-align: center;
